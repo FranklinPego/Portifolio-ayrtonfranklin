@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Tilt Neon', cursive;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+/*CABEÇALHO*/
+
+
+.apresentacao{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    list-style-type: none;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+}
+.menu li a:hover{
+    color: rgb(120, 120, 120);
+    transition: 0.4s;
+}
+
+
+/*CABEÇALHO*/
+
+
+/*SOBRE MIM*/
+
+
+.history{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 126, 126);
+    margin: 100px 300px;
+    padding: 30px 10px 70px;
+    border-radius: 70px;
+}
+.ayrton{
+    width: 300px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 230px;
+    transform: translateY(0px);
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.ayrton:hover{
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 150px;
+    transition: 0.6s;
+}
+.sobre{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/*SOBRE MIM*/
+
+/*HABILIDADES*/
+
+.tecnology{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 190px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+.title-tecnology{
+    text-align: center;
+    color: black;
+}
+.a{
+    margin-top: 220px;
+
+}
+.all-cards{
+    display: flex;
+    margin-top: 0;
+    margin: 10px 80px ;
+    background-color: rgb(118, 118, 118);
+    padding: 80px 50px 120px;
+    border-radius: 30px;
+}
+.card{
+    width: 240px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    text-align: center;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 13px;
+}
+.card:hover{
+    transition: 0.5s;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(115, 115, 115);
+}
+.img-card{
+    width: 100px;
+}
+.text-card{
+    margin-top: 8px;
+    color: black;
+}
+
+/*HABILIDADES*/
+
+/*PROJETOS*/
+
+.all-projects{
+    margin: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 50px 30px;
+    border-radius: 60px;
+    text-align: center;
+    color: black;
+}
+.projects{
+    background-color: rgb(74, 74, 74);
+    border-radius: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 20px 100px;
+
+}
+.card-project{
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 200px;
+    color: black;
+    padding: 10px 10px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+.card-project:hover{
+    border: 2px solid rgb(255, 0, 0);
+    transition: 0.7s;
+    background-color: rgb(255, 255, 255, 0.5);
+
+}
+.img-project{
+    width: 190px;
+    height: 160px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.rdr-project{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.title-project{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.button-project{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.button-project:hover{
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+}
+/*PROJETOS*/
+
+
+/*CONTATO*/
+
+
+.contact{
+    background-color: rgb(27, 27, 27);
+    padding: 60px;
+    
+}
+.social{
+    margin-left: 150px;
+}
+.img-contact{
+    width: 30px;
+
+}
+.social a{
+    margin-top: 40px;
+    display: flex;
+    text-decoration: none;
+}
+.social a h4{
+    color: white;
+    margin-left: 10px;
+}
+/*CONTATO*/
